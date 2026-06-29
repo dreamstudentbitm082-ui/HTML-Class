@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables and Nested Tables</title>
+</head>
+<body>
+    <table border = "1" bordercolor = "black">
+        <tr>
+            <th>S.N.</th>
+            <th>Name</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ram</td>
+            <td>Bharatpur</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sita</td>
+            <td>Janakput</td>
+        </tr>
+    </table>
+
+    <h2>Nested Table</h2>
+    <table border = "1" bordercolor = "red">
+        <tr>
+            <th>Table 1</th>    <!-- You can use td (table data) instead as well-->
+            <th>Table 1
+                <table border = "1" bordercolor = "green">
+                    <tr>
+                        <th>Table 2</th>
+                        <th>Table 2</th>
+                    </tr>
+                    <tr>
+                        <th>Table 2</th>
+                        <th>Table 2</th>
+                    </tr>
+                </table>
+            </th>
+        </tr>
+        <tr>
+            <th>Table 1</th>
+            <th>Table 1</th>
+        </tr>
+
+    </table>
+
+</body>
+</html>
